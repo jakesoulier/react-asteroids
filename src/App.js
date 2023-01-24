@@ -1,10 +1,12 @@
 import React from 'react';
-import Navbar from './components/navbar'
+import Navbar from './components/Navbar'
+import Main from './components/Main';
 
 const App = () => (
   <div className="App">
     <Navbar />
-    <p>hey dude</p>
+    <Main />
+  
   </div>
 );
 
