@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';   
+import index from './index.css';   
 
 function Header() {
     return (
         <header>
             <nav>
-                <img src='/src/logo.png' alt='logo pic'/>
+                <img src={require('./img/logo.png')} alt='logo pic'/>
                 <ul className='navbar'>
                     <li>Pricing</li>
                     <li>About</li>
