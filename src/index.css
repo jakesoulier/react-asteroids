@@ -3,3 +3,61 @@ body {
     font-family: 'Inter', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }
+
+/* header {
+    text-align: center;
+} */
+
+.App, html, div#root, body, .StartScreen {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.StartScreen {
+    background-color: #2F2B4A;
+    margin: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+/* 
+.StartScreen img {
+    margin: 120px;
+} */
+
+.StartScreen button {
+    width: 75%;
+    font-style: bold;
+    padding: 0.5rem;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.776);
+    background-color: black;
+    border: 4px solid rgba(255, 255, 255, 0.776);
+    outline: black solid 4px;
+    animation: backgroundChange 2s linear infinite;
+}
+
+.StartScreen button:hover {
+    border: 4px solid white;
+    color: white; 
+    box-shadow: 0 0 50px white, inset 0 0 4px white;
+}
+
+@keyframes backgroundChange {
+    50% {
+        box-shadow: 0 0 50px white;
+
+    }
+}
+
+.StartScreen ul {
+    column-count: 2;
+    list-style: none;
+}
+
+.topScores {
+    text-align: center;
+}
